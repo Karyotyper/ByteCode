@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -57,9 +56,16 @@ public class RestfulWebService extends Activity {
     String serverURL = url;
     EditText etResponse;
     TextView tvIsConnected;
+    String testString;
+
+    /**testing comment 2**/
+    //testing method 3
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        String testString;
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restful_web_service);
 
